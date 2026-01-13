@@ -17,105 +17,200 @@
             <span class="logo">AllMyProfits</span>
         </div>
         <div class="nav-links">
-            <a href="#consultancy">Services</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#why-us">Why Us</a>
             <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
+            <a href="#contact" class="nav-cta">Get Started</a>
         </div>
     </nav>
 
-    <!-- Main Container -->
-    <div class="main-container">
-        <!-- Left Side: Software Consultancy -->
-        <section class="consultancy-section" id="consultancy">
-            <div class="consultancy-content">
-                <div class="hero-badge">
-                    <span>🚀 Building Tomorrow's Solutions</span>
-                </div>
-                
-                <h1 class="main-heading">
-                    Transform Your Vision Into 
-                    <span class="gradient-text">Powerful Software</span>
-                </h1>
-                
-                <p class="tagline">
-                    Expert software consultancy for individuals, startups, enterprises, and everyone in between. 
-                    We turn complex challenges into elegant digital solutions.
-                </p>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span>Custom built, not copy-paste</span>
+            </div>
+            
+            <h1 class="main-heading">
+                Transform Your Vision Into 
+                <span class="gradient-text">Powerful Software</span>
+            </h1>
+            
+            <p class="tagline">
+                We bring world-class technologists, proven methods, and bold ideas to solve big problems and deliver measurable results from concept to scale.
+            </p>
 
-                <!-- Service Cards -->
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">👤</div>
-                        <h3>Individuals</h3>
-                        <p>Personal projects, MVPs, and portfolio apps</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">🏢</div>
-                        <h3>Companies</h3>
-                        <p>Business automation, web apps, and integrations</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">🌐</div>
-                        <h3>Enterprises</h3>
-                        <p>Scalable solutions, cloud architecture, and digital transformation</p>
-                    </div>
-                </div>
+            <!-- CTA Buttons -->
+            <div class="cta-buttons">
+                <button class="btn btn-primary" onclick="scrollToContact()">
+                    Start Your Project
+                    <span class="btn-arrow">→</span>
+                </button>
+                <a href="#blog" class="btn btn-secondary">
+                    Read Our Blog
+                </a>
+            </div>
 
-                <!-- Tech Stack -->
-                <div class="tech-stack">
-                    <h3>Our Expertise</h3>
-                    <div class="tech-tags">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">AWS</span>
-                        <span class="tech-tag">Azure</span>
-                        <span class="tech-tag">Docker</span>
-                        <span class="tech-tag">AI/ML</span>
-                        <span class="tech-tag">Microservices</span>
-                    </div>
-                </div>
-
-                <!-- CTA Buttons -->
-                <div class="cta-buttons">
-                    <button class="btn btn-primary" onclick="scrollToContact()">
-                        Start Your Project
-                        <span class="btn-arrow">→</span>
-                    </button>
-                    <button class="btn btn-secondary" onclick="scrollToBlog()">
-                        Read Our Blog
-                    </button>
-                </div>
-
-                <!-- Stats -->
-                <div class="stats-row">
-                    <div class="stat-item">
-                        <div class="stat-number">100+</div>
-                        <div class="stat-label">Projects Delivered</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">50+</div>
-                        <div class="stat-label">Happy Clients</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-label">Support</div>
-                    </div>
+            <!-- Trusted By Section -->
+            <div class="trusted-by">
+                <p class="trusted-label">Trusted by leading companies</p>
+                <div class="client-logos">
+                    <div class="client-logo">Airtel</div>
+                    <div class="client-logo">ACT</div>
+                    <div class="client-logo">Moschip</div>
+                    <div class="client-logo">HDFC</div>
+                    <div class="client-logo">Asian Paints</div>
+                    <div class="client-logo">NSE</div>
+                    <div class="client-logo">Google</div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Right Side: Blog -->
-        <section class="blog-section" id="blog">
-            <div class="blog-content">
-                <div class="blog-header">
-                    <h2>Latest Insights</h2>
-                    <p>Tips, tricks, and industry updates</p>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="section-header">
+                <h2>About AllMyProfits</h2>
+                <p>Building Tomorrow's Solutions, Today</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        At AllMyProfits, we're not just consultants—we're builders. With a proven track record of 
+                        delivering cutting-edge software solutions, we partner with individuals, companies, and enterprises 
+                        to transform complex challenges into elegant digital experiences.
+                    </p>
+                    <p>
+                        Our team brings world-class technical expertise across the full stack, from cloud architecture 
+                        and AI/ML to modern web applications and microservices. We don't just advise; we roll up our sleeves, 
+                        write code, and ship products that drive real business value.
+                    </p>
+                    <p>
+                        Founded on the principles of speed, quality, and measurable results, we've helped launch over 100 
+                        products and created more than $10M in value for our clients. Whether you're starting from scratch 
+                        or scaling an existing platform, we're your partner for success.
+                    </p>
                 </div>
+                
+                <div class="about-values">
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li><strong>Excellence:</strong> We deliver world-class solutions, not shortcuts</li>
+                        <li><strong>Transparency:</strong> Clear communication and honest timelines</li>
+                        <li><strong>Innovation:</strong> Staying ahead with the latest technologies</li>
+                        <li><strong>Partnership:</strong> Your success is our success</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="blog-posts" id="blogPosts">
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="services-container">
+            <div class="section-header">
+                <h2>How Can We Help You?</h2>
+                <p>Building solutions for everyone, from individuals to enterprises</p>
+            </div>
+
+            <!-- Service Cards -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">👤</div>
+                    <h3>Individuals</h3>
+                    <p>Personal projects, MVPs, and portfolio apps</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Companies</h3>
+                    <p>Business automation, web apps, and integrations</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Enterprises</h3>
+                    <p>Scalable solutions, cloud architecture, and digital transformation</p>
+                </div>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="tech-stack">
+                <h3>Our Expertise</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">Azure</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">AI/ML</span>
+                    <span class="tech-tag">Microservices</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number">$1M+</div>
+                <div class="stat-label">Value Created</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">33+</div>
+                <div class="stat-label">Products Launched</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">19K+</div>
+                <div class="stat-label">Users Engaged</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-section" id="why-us">
+        <div class="why-container">
+            <div class="section-header">
+                <h2>Why Partner With Us?</h2>
+                <p>We're not just consultants, we're practitioners. We build. We ship. We deliver.</p>
+            </div>
+
+            <div class="why-cards">
+                <div class="why-card">
+                    <div class="why-icon">🏗️</div>
+                    <h3>Builder's Mindset</h3>
+                    <p>We're practitioners who build and ship products, not just advisors with PowerPoint decks.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">🚀</div>
+                    <h3>Speed & ROI</h3>
+                    <p>We drive real results, not vague promises. Fast delivery with measurable business outcomes.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">🌍</div>
+                    <h3>Global Scale</h3>
+                    <p>Boutique experience with enterprise scale. Deep technical talent with worldwide reach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section" id="blog">
+        <div class="blog-container">
+            <div class="section-header">
+                <h2>Latest Insights</h2>
+                <p>Tips, tricks, and industry updates</p>
+            </div>
+
+            <div class="blog-posts" id="blogPosts">
                     <!-- Blog posts will be loaded here -->
                     <article class="blog-post">
                         <div class="post-date">Jan 13, 2026</div>
@@ -158,22 +253,8 @@
                         <a href="#" class="read-more">Read more →</a>
                     </article>
                 </div>
-
-                <!-- Admin Blog Editor (Hidden by default) -->
-                <div class="admin-section" id="adminSection" style="display: none;">
-                    <h3>Add New Post</h3>
-                    <form id="blogForm" class="blog-form">
-                        <input type="text" id="postTitle" placeholder="Post Title" required>
-                        <textarea id="postContent" placeholder="Post Content" rows="6" required></textarea>
-                        <button type="submit" class="btn btn-primary">Publish Post</button>
-                    </form>
-                </div>
-
-                <!-- Admin Access Button -->
-                <button class="admin-toggle" onclick="toggleAdmin()">Admin Access</button>
             </div>
         </section>
-    </div>
 
     <!-- Contact Section -->
     <section class="contact-section" id="contact">
@@ -214,10 +295,53 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2026 AllMyProfits. All rights reserved.</p>
-        <div class="footer-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-brand">AllMyProfits</h3>
+                <p class="footer-tagline">Building tomorrow's solutions, today.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="GitHub">gh</a>
+                    <a href="#" aria-label="Twitter">tw</a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Product Engineering</a></li>
+                    <li><a href="#">Cloud Architecture</a></li>
+                    <li><a href="#">AI & Machine Learning</a></li>
+                    <li><a href="#">Digital Transformation</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="mailto:contact@allmyprofits.com">contact@allmyprofits.com</a></li>
+                    <li><a href="#">Partners</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 AllMyProfits, LLC. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
         </div>
     </footer>
 
