@@ -1,17 +1,38 @@
 # AllMyProfits Website
 
-A modern, professional single-page website showcasing software consultancy services.
+A modern, professional website showcasing software consultancy services.
+
+## Project Structure
+
+```
+godaddy/
+├── index.html              # Main landing page
+├── CNAME                   # Custom domain configuration
+├── README.md               # This file
+├── DEPLOYMENT.md           # Deployment instructions
+├── css/
+│   └── styles.css         # All website styles
+├── js/
+│   └── script.js          # JavaScript functionality
+├── images/
+│   └── logo.png           # Company logo
+└── pages/
+    ├── about-us.html      # About Us page
+    ├── privacy-policy.html # Privacy Policy
+    └── terms-of-service.html # Terms of Service
+```
 
 ## Features
 
-- **Single-page design**: Smooth-scrolling sections for better user experience
-- **Professional layout**: Inspired by Modus Create with navy/cyan color scheme
-- **Fixed navigation**: Always-visible header with About, Services, Why Us, Blog, Get Started
+- **Multi-page design**: Home, About Us, Privacy Policy, Terms of Service
+- **Professional layout**: Modern navy/cyan color scheme
+- **Fixed navigation**: Always-visible header with About, Services, Why Us, Blog, Contact
 - **About section**: Company story and core values
 - **Services showcase**: Individual, Company, and Enterprise solutions
 - **Stats section**: Value created, products launched, users engaged
 - **Blog section**: Latest insights and industry updates
 - **Contact form**: Easy way for clients to reach out
+- **Legal pages**: Professional Privacy Policy and Terms of Service
 - **Responsive**: Works perfectly on desktop, tablet, and mobile
 
 ## Adding Blog Posts
@@ -53,12 +74,16 @@ Blog posts are managed directly in the HTML code:
 
 ## Customization
 
-- **Colors**: Edit `styles.css` `:root` section variables
-- **Content**: Update sections in `index.html`
-- **Services**: Modify service cards and tech stack
-- **About**: Edit company story and values
-- **Blog**: Add new posts as shown above
-- **Contact**: Update contact form and email
+- **Colors**: Edit `css/styles.css` `:root` section variables
+- **Home Page**: Update sections in `index.html`
+- **About Page**: Edit `pages/about-us.html`
+- **Services**: Modify service cards and tech stack in `index.html`
+- **Blog**: Add new posts as shown above in `index.html`
+- **Contact**: Update contact form in `index.html`
+- **Legal**: Edit `pages/privacy-policy.html` or `pages/terms-of-service.html`
+- **Styling**: All CSS in `css/styles.css`
+- **Scripts**: All JavaScript in `js/script.js`
+- **Images**: Store in `images/` folder
 
 ## Technologies
 
@@ -67,3 +92,4 @@ Blog posts are managed directly in the HTML code:
 - Google Fonts (Inter)
 - GitHub Pages (Free hosting)
 - Professional navy/cyan color scheme
+- Organized folder structure for scalability
