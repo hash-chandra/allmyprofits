@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
 Sitemap: https://allmyprofits.com/sitemap.xml
-
-# Disallow admin or sensitive areas (none currently)
-# Disallow: /admin/
